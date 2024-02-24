@@ -1,10 +1,9 @@
-import random
-
-# Evangelos Georgosoulis
-# difficulty modes for pve
+# Evangelos Georgosoulis 2023
+# difficulty modes for pve?
 # easy - random
 # medium -
 # hard -
+import random
 
 
 def board(list):  # emfanhsh pinaka trilizas
