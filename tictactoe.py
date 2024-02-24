@@ -1,8 +1,13 @@
 # Evangelos Georgosoulis 2023
-# difficulty modes for pve?
-# easy - random
-# medium -
-# hard -
+"""
+TODO: difficulty modes for pve?
+      easy - random, medium, hard 
+    show game table with positions
+    [0][1][2]
+    [3][4][5]
+    [6][7][8]
+"""
+
 import random
 
 
@@ -158,7 +163,7 @@ def main():
         play_mode = int(
             input("Choose a mode...\n 1.Player vs Player\n 2.Player vs Computer\n")
         )
-        
+
     while option != 2:  # option = 2 == end game
         list = ["   "] * 9  # arxikopoihsh listas me kena
 
