@@ -150,17 +150,18 @@ def main():
     diff = 0
     vs = ""
 
-    while option != 2:  # option = 2 == end game
-        list = ["   "] * 9  # arxikopoihsh listas me kena
-
+    play_mode = int(
+        input("Choose a mode...\n 1.Player vs Player\n 2.Player vs Computer\n")
+    )
+    while play_mode != 1 and play_mode != 2:  # elegxos gia swstes times
+        print("Error. Try again.")
         play_mode = int(
             input("Choose a mode...\n 1.Player vs Player\n 2.Player vs Computer\n")
         )
-        while play_mode != 1 and play_mode != 2:  # elegxos gia swstes times
-            print("Error. Try again.")
-            play_mode = int(
-                input("Choose a mode...\n 1.Player vs Player\n 2.Player vs Computer\n")
-            )
+        
+    while option != 2:  # option = 2 == end game
+        list = ["   "] * 9  # arxikopoihsh listas me kena
+
 
         if play_mode == 1:  # PvP
             vs = "Player2"
